@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="buyer.css">
+    <link rel="icon" type="image/png" href="im/icons8-book-64.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Takshila</title>
+</head>
+<body>
+    
+     
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="buyer.html">Books</a>
+    <a href="news.html">News</a>
+    <a href="contactus.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+
+    <div class="container">
+      <h1 class="neon">Takshila</h1>
+    </div>
+  </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+     
+
+<input id="searchbar" onkeyup="search_animal()" type="text"
+name="search" placeholder="Search Book...">
+
+
+    
+       
+      <div class="main">
+       
+<ol id='list'>
+        
+        <ul class="cards">
+          <li class="cards_item">    
+            <div class="card">
+              <div class="card_image"><img src="im/books/book1.jpg"></div> 
+              <div class="card_content">
+                <h2 class="card_title">Problem In Mathematics
+                             <br>with Hints and solutions</h2> <h3 class = "cro">₹160.00</h3><h2><b>₹80.00</b></h2>
+                             
+                <!-- <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p> -->
+                <!-- <button class="btn card_btn">Read More</button> -->
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2ysCyNObrFYwA" async> </script> </form>
+                         </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="im/books/book3.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">101 Invention That changed the World</h2> <h3 class = "cro">₹975.00</h3><h2><b>₹200.00</b></h2>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2ynIhWeyYsnCs" async> </script> </form> 
+              <!-- <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2Y9tmhGMVNx9j" async> </script> </form> -->
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="im/books/book6.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Mathematics for JEE<br>Cengage (Calculus)</h2> <h3 class = "cro">₹675.00</h3><h2><b>₹200.00</b></h2>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2ynIhWeyYsnCs" async> </script> </form>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="im/books/book5.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Mathematics for JEE<br>Cengage (Algebra)</h2> <h3 class = "cro">₹495.00</h3><h2><b>₹200.00</b></h2>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2ynIhWeyYsnCs" async> </script> </form>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="im/books/book2.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Arihant<br>Online Bitsat (2017)</h2> <h3 class = "cro">₹795.00</h3><h2><b>₹200.00</b></h2>
+               
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2ynIhWeyYsnCs" async> </script> </form>
+            </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="im/books/book4.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Mathmatics For JEE<br>Cengage (Algebra)</h2> <h3 class = "cro">₹599.00</h3><h2><b>₹200.00</b></h2>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2ynIhWeyYsnCs" async> </script> </form>
+            </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="im/books/atomss.jpeg"></div>
+              <div class="card_content">
+                <h2 class="card_title">The AHA GUIDE<br> To Atom (AhaGuru)<br></h2> <h3 class = "cro">₹195.00</h3><h2><b>₹80.00</b></h2>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2ysCyNObrFYwA" async> </script> </form>
+                       </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="im/books/bundle.jpeg"></div>
+              <div class="card_content">
+                <h2 class="card_title">The Mystery of the<br>Strange Bundle</h2> <h3 class = "cro">₹135.00</h3><h2><b>₹80.00</b></h2>
+               
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2ysCyNObrFYwA" async> </script> </form>
+                  
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="im/books/newtonlaw.jpeg"></div>
+              <div class="card_content">
+                <h2 class="card_title">The Aha Gudie to Newton's<br>Law (Balaji Sampath)<br></h2> <h3 class = "cro">₹180.00</h3><h2><b>₹80.00</b></h2>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2ysCyNObrFYwA" async> </script> </form>
+               </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="im/books/Gosbump.jpeg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Goosebumps<br>Night of the living Dummy</h2> <h3 class = "cro">₹279.00</h3><h2><b>₹80.00</b></h2>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2ysCyNObrFYwA" async> </script> </form>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="im/books/gult.jpeg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Gulliver's Travels<br>(Arihant)</h2> <h3 class = "cro">₹195.00</h3><h2><b>₹80.00</b></h2>
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2ysCyNObrFYwA" async> </script> </form>
+                        </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="im/books/cc.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">Takshila<br>
+                  <p>Want to sell your book Send request to us and our team contact to you soon </p><br></h2> 
+<!-- 
+                <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_I2Y9tmhGMVNx9j" async> </script> </form> -->
+                <a href="contactus.html" class="active">
+                  <button class="button button1">
+                    Send Request</button>
+                 
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </ol> 
+      </div>
+     
+  
+
+   <script src="script.js"></script>
+
+</body>
+
+
+</html>
